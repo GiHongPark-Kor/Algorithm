@@ -1,4 +1,4 @@
-// bool �迭 ����ϱ�!
+// bool ¹è¿­ »ç¿ëÇÏ±â!
 #include <iostream>
 #include <vector>
 #include <algorithm>
