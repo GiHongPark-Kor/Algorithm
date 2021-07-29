@@ -1,13 +1,17 @@
-//start : 02 : 40
+
 #include <iostream>
 #include <stdlib.h>
 using namespace std;
 
 int main()
 {
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
+	cout.tie(NULL);
+
 	int N, B, C;
 	int* v;
-	float res = 0;
+	long long res = 0; // 범위 조심!
 	cin >> N;
 	v = (int*)malloc(sizeof(int) * N);
 	for (int i = 0; i < N; i++)
@@ -37,8 +41,7 @@ int main()
 			res += 1;
 	}
 
-	cout << res << endl;
-
+	cout << res;
 
 	return 0;
 }
