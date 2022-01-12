@@ -1,5 +1,5 @@
 import sys
-
+ 
 if __name__ == "__main__":
     # 1. 입력 및 초기화
     W, N = map(int, sys.stdin.readline().split())
